@@ -1,0 +1,20 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+    margin-left: 5%;
+    color: blue;
+}
+
+#resumen{
+    display: none;
+}
+
+@media (min-width: 600px){
+    body{
+        font-size: 16px;
+        color: red;
+    }
+    #resumen{
+        display: block;
+    }
+}
